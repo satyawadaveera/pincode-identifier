@@ -54,7 +54,7 @@ export interface PostOfficeInfo {
     State:string;
     Country:string;
 }
- <P><img src="\demo-image\demoimage.PNG"></P>
+ <P><img src="\demo-image\demoimage.png"></P>
 
   
             
