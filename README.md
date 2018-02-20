@@ -28,7 +28,7 @@
  
  ### @Input Decorator,
  
- @Input()cityname:any;
+ @Input()cityname:string;
  cityname is the variable I have used to take input from the user.
  
  
