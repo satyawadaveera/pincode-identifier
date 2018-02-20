@@ -3,6 +3,9 @@
   # Pin code Identifier using angular 
   Pin code component can display state, country, pin code using JSON data.
  
+  <P><img src="\demo-image\demoimage.png"></P>
+ 
+ Demo [Link](https://stackblitz.com/edit/angular-uwuac8?file=src%2Fapp%2Fpincode%2Fpincode.component.ts)
  
  When user enters a city name it will display all the informations like pincode,state name.
  
@@ -54,10 +57,7 @@ export interface PostOfficeInfo {
     State:string;
     Country:string;
 }
- <P><img src="\demo-image\demoimage.png"></P>
- 
- Demo Link
- https://stackblitz.com/edit/angular-uwuac8?file=src%2Fapp%2Fpincode%2Fpincode.component.ts
+
 
   
             
