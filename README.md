@@ -5,7 +5,7 @@
  
   <P><img src="\demo-image\demoimage.png"></P>
  
- To Preview Demo:- [Click Here](https://stackblitz.com/edit/angular-uwuac8?embed=1&file=src/app/pincode/pincode.component.ts&hideNavigation=1&view=preview)
+ To Preview Demo:- [Click Here](https://stackblitz.com/edit/angular-uwuac8-g53soa?file=src%2Fapp%2Fpincode%2Fpincode.component.html)
  
  When user enters a city name it will display all the informations like pincode,state ,country name.
  
