@@ -7,14 +7,14 @@
  
  To Preview Demo:- [Click Here](https://stackblitz.com/edit/angular-uwuac8?embed=1&file=src/app/pincode/pincode.component.ts&hideNavigation=1&view=preview)
  
- When user enters a city name it will display all the informations like pincode,state name.
+ When user enters a city name it will display all the informations like pincode,state ,country name.
  
  It is useful to the user to find out pin code,state name and country name easily.
  
 
-## Using the complete angular material project
+## Using the  angular  project
 
-Download the pincode-identifier folder into your project and run the application.
+Download the pincode-identifier project install the required package and run the application.
 
 ### Installing
 
