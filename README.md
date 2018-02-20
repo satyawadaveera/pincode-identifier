@@ -5,58 +5,75 @@
  
   <P><img src="\demo-image\demoimage.png"></P>
  
- Demo [Link](https://stackblitz.com/edit/angular-uwuac8?file=src%2Fapp%2Fpincode%2Fpincode.component.ts)
+ To Preview Demo:- [Link](https://stackblitz.com/edit/angular-uwuac8?file=src%2Fapp%2Fpincode%2Fpincode.component.ts)
  
  When user enters a city name it will display all the informations like pincode,state name.
  
  It is useful to the user to find out pin code,state name and country name easily.
  
- ## Using this component in your project 
- 
- Download this component to your angular project and include required components.
- 
- ### Note: Please refer the JSON file in assets folder
- 
- ### JSON Description
- 
- • **heading** gives the idendifier pin code
- 
- • **data** gives the information about entered pin code
 
- 
- ## How it works
- 
- User will pass the data in property binding format then JSON data object will store this information and give it to 
- **input decorator**
- 
- ### @Input Decorator,
- 
- @Input()cityname:string;
- cityname is the variable I have used to take input from the user.
- 
- 
- ### @Output Decorator
- 
- @Output()outputdata=new EventEmitter();
+## Using the complete angular material project
 
+Download the pincode-identifier folder into your and run the application.
+
+### Installing
+
+```
+> npm install
+```
+
+### Run server
+
+```
+> ng serve
+```
+
+  jsonData is of type PincodeInfo interface.
  
-
-## PincodeInfo Interface
-
-jsonData is the type Of PincodeInfo
-
-export interface PincodeInfo {  
+ ## PincodeInfo Interface
+```
+ interface PincodeInfo {  
 
     PostOffice:PostOfficeInfo;
     Status:string;
 }
+
+```
+
+PostOffice is of type PostofficeInfo interface.
+
 ## PostofficeInfo Interface
-export interface PostOfficeInfo {
+```
+
+ interface PostOfficeInfo {
 
     PINCode:number;
     State:string;
     Country:string;
 }
+```
+
+
+
+ ### @Input Decorator,
+ 
+ @Input()cityname:string;
+ 
+ cityname is the variable I have used to take input from the user.
+ 
+ 
+ ### @Output Decorator
+<app-pincode [cityname]="city" (outputdata)="getdata($event)"></app-pincode>
+
+outputdata is the variable which will emit the output to user.
+ ```
+   getdata(pincodedata:PincodeInfo){
+	  console.log(pincodedata);
+}
+```
+ 
+
+
 
 
   
