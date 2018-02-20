@@ -1,23 +1,11 @@
 
- 
 
-
-
- 
-
-
-
- 
-
-<section>
-<article class="box">
-  <p class="g">Search By Any Location</p>
-     <div id="panel">
-
+     <div class="container-fluid" id="container">
+       <p class="pp">Search By Any Location</p>
         <input  [(ngModel)]="city" id="address" type="textbox">
 
-        <input  type="button" value="Getcode" id="btn" (click)="getLocationDetails()">
-<p>{{errorMessage}}</p>
+        <input  type="button" class="btn btn-primary" value="Getcode" id="btn" (click)="getLocationDetails()">
+<p class="error">{{errorMessage}}</p>
         <div id="messageBox"> </div>
         <div id="lattitude"></div>
         <div id="longitude"></div>
@@ -27,11 +15,6 @@
         <p class="city">State : {{state}}</p>
         <p class="city">pincode : {{pin}}</p>
     </div>
-</article>
-</section>
-
- 
-
 
 
 
