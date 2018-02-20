@@ -1,20 +1,19 @@
 
 
      <div class="container-fluid" id="container">
-       <p class="pp">Search By Any Location</p>
-        <input  [(ngModel)]="city" id="address" type="textbox">
+       <p class="pp label-info">Pincode Identifier </p>
+        <input  [(ngModel)]="city" id="address" type="textbox" placeholder="Enter location">
 
-        <input  type="button" class="btn btn-primary" value="Getcode" id="btn" (click)="getLocationDetails()">
+        <button class="btn btn-primary" value="Getcode" id="btn" (click)="getLocationDetails()">Search</button>
 <p class="error">{{errorMessage}}</p>
         <div id="messageBox"> </div>
         <div id="lattitude"></div>
         <div id="longitude"></div>
         <div id="val"></div>
-        <p class="city">City : {{city}}</p>
-        <p class="city">Country : {{country}}</p>
-        <p class="city">State : {{state}}</p>
-        <p class="city">pincode : {{pin}}</p>
+        <p class="city label-default">City : {{city}}</p>
+        <p class="city label-default">Country : {{country}}</p>
+        <p class="city label-default">State : {{state}}</p>
+        <p class="city label-default">pincode : {{pin}}</p>
     </div>
-
 
 
