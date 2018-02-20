@@ -1,0 +1,37 @@
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+<section>
+<article class="box">
+  <p class="g">Search By Any Location</p>
+     <div id="panel">
+
+        <input  [(ngModel)]="city" id="address" type="textbox">
+
+        <input  type="button" value="Getcode" id="btn" (click)="getLocationDetails()">
+<p>{{errorMessage}}</p>
+        <div id="messageBox"> </div>
+        <div id="lattitude"></div>
+        <div id="longitude"></div>
+        <div id="val"></div>
+        <p class="city">City : {{city}}</p>
+        <p class="city">Country : {{country}}</p>
+        <p class="city">State : {{state}}</p>
+        <p class="city">pincode : {{pin}}</p>
+    </div>
+</article>
+</section>
+
+ 
+
+
+
+

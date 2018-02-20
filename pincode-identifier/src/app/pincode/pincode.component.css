@@ -1,0 +1,90 @@
+*{
+
+    margin:0px auto;
+  
+ 
+  
+  
+  
+  }
+  
+   
+ 
+  
+  
+ 
+   
+  
+ 
+  
+  
+   
+  
+  .box{
+  
+         width:300px;
+  
+         height:300px;
+  
+       
+         border:10px solid blue;
+         margin:50px 0px 0px 350px;
+  
+         background-color: cyan;
+  
+         border-radius:10px;
+  
+   
+  
+     
+  
+   
+  
+  }
+  
+   
+  
+  #address{
+  
+      margin:40px 0px 0px 30px;
+  
+  }
+  
+  #messagebox{
+  
+       color:blue;
+  
+   
+  
+  }
+  
+  
+   
+  
+  
+  
+  #address{
+    background-color: rgb(235, 221, 221);
+    border:1px solid black;
+  
+  }
+  #btn{
+      border-radius:5px;
+      background-color: light gray;
+  }
+  .city{
+    color:red;
+    text-align:center;
+    margin-top:20px;
+    width:200px;
+    height:15px;
+    border:1px solid red;
+  }
+  p{
+    color:red;
+    font-weight:bold;
+    text-align:center;
+  }
+  
+  
+  
