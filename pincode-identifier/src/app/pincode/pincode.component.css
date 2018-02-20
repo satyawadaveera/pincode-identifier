@@ -1,90 +1,55 @@
 *{
 
     margin:0px auto;
+  }
+  
+   #container{
+                margin:0 auto;
+                width:35%;
+                border:10px solid gray;
+                box-sizing:border-box;
+                border-radius:10px;
+                background-color:#ff884d;
+            }
+            input{
+                
+                margin:10px;
+                width:100px;
+                border:2px solid black;
+
+
+            }
+            #btn{
+                
+                 width:70px;
+                margin:10px 0px 10px 20px;
+            }
+        
+             
+            
+            p{
+                border:1px solid black;
+                color:white;
+              
+               
+              
+            }
+            .pp{
+            margin-top:10px;
+            }
+            .error{
+                 text-align:center;
+                 border:none;
+            } 
+ 
+  
+  
+ 
+   
   
  
   
   
-  
-  }
-  
-   
- 
-  
-  
- 
    
   
  
-  
-  
-   
-  
-  .box{
-  
-         width:300px;
-  
-         height:300px;
-  
-       
-         border:10px solid blue;
-         margin:50px 0px 0px 350px;
-  
-         background-color: cyan;
-  
-         border-radius:10px;
-  
-   
-  
-     
-  
-   
-  
-  }
-  
-   
-  
-  #address{
-  
-      margin:40px 0px 0px 30px;
-  
-  }
-  
-  #messagebox{
-  
-       color:blue;
-  
-   
-  
-  }
-  
-  
-   
-  
-  
-  
-  #address{
-    background-color: rgb(235, 221, 221);
-    border:1px solid black;
-  
-  }
-  #btn{
-      border-radius:5px;
-      background-color: light gray;
-  }
-  .city{
-    color:red;
-    text-align:center;
-    margin-top:20px;
-    width:200px;
-    height:15px;
-    border:1px solid red;
-  }
-  p{
-    color:red;
-    font-weight:bold;
-    text-align:center;
-  }
-  
-  
-  
