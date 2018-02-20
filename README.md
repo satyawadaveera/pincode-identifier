@@ -14,7 +14,7 @@
 
 ## Using the complete angular material project
 
-Download the pincode-identifier folder into your and run the application.
+Download the pincode-identifier folder into your project and run the application.
 
 ### Installing
 
