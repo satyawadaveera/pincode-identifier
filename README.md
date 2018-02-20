@@ -16,9 +16,10 @@
  
  ### JSON Description
  
- • *heading* gives the idendifier pin code
+ • **heading** gives the idendifier pin code
  
- • *data* gives the information about entered pin code
+ • **data** gives the information about entered pin code
+
  
  ## How it works
  
@@ -34,7 +35,26 @@
  ### @Output Decorator
  
  @Output()outputdata=new EventEmitter();
- <img src="demo-img/postal.PNG">
- 	
+
+ 
+
+## PincodeInfo Interface
+
+jsonData is the type Of PincodeInfo
+
+export interface PincodeInfo {  
+
+    PostOffice:PostOfficeInfo;
+    Status:string;
+}
+## PostofficeInfo Interface
+export interface PostOfficeInfo {
+
+    PINCode:number;
+    State:string;
+    Country:string;
+}
+ <img src="demo-image/demoimage.PNG">
+
   
             
