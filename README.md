@@ -3,7 +3,7 @@
   # Pin code Identifier using angular 
   Pin code component can display state, country, pin code using JSON data.
  
-  <P><img src="\demo-image\demoimage.png"></P>
+  <P><img src="\Demo-image\demoimage.PNG"></P>
  
  To Preview Demo:- [Click Here](https://stackblitz.com/edit/angular-uwuac8-g53soa?file=src%2Fapp%2Fpincode%2Fpincode.component.html)
  
