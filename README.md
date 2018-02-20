@@ -55,6 +55,9 @@ export interface PostOfficeInfo {
     Country:string;
 }
  <P><img src="\demo-image\demoimage.png"></P>
+ 
+ Demo Link
+ click here[https://stackblitz.com/edit/angular-uwuac8?file=src%2Fapp%2Fpincode%2Fpincode.component.ts]
 
   
             
